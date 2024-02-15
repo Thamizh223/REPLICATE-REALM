@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.social-media {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.social-media h2 {
+  text-align: center;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
